@@ -1,0 +1,11 @@
+ASCII values Char-Value:
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char a;
+    scanf("%c",&a);
+    printf("%d",a);
+
+    return 0;
+}
