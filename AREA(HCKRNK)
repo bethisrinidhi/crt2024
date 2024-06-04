@@ -1,0 +1,22 @@
+AREA CALCULATION 7(HACKERRANK):
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int s,l,b;
+    float r;
+    scanf("%d%d%d",&s,&l,&b);
+    scanf("%f",&r);
+    int area = s*s;
+    printf("%d\n",area);
+    int rect=l*b;
+    printf("%d\n",rect);
+    float circ=3.14*r*r;
+    printf("%.2f",circ);
+    return 0;
+}
