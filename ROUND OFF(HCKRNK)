@@ -1,0 +1,16 @@
+ROUND OFF (hackerrank):
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+       float a;
+    scanf("%f",&a);
+    int r1=(int) a;
+    printf("%d\n",r1);
+    printf("%.1f\n",ceil(a));
+    printf("%.1f\n",floor(a));    
+    return 0;
+}
