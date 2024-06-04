@@ -1,0 +1,15 @@
+PROFIT CAL(Hackerrank):
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,a,b;
+    scanf("%d%d%d",&x,&a,&b);
+     int t=(x*a)-(x*b);
+      int profit=t-100;
+    printf("%d",profit);
+    return 0;
+}
