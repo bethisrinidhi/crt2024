@@ -1,0 +1,17 @@
+IF CONDITION:
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(b==0){
+        printf("second num cannot be zero\n");
+        b=1;
+    }
+    int c=a/b;
+    printf("%d",c);
+
+    return 0;
+}
