@@ -1,0 +1,32 @@
+ELECTRICITY BILLS(HACKERRANK):
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int num;
+    scanf("%d",&num);
+    if(num<=200){
+        int bill=num*0.5;
+        printf("Rs.%d",bill);
+    }
+    else if(num<=400){
+
+        int bill=(num*0.65)+100;
+        printf("Rs.%d",bill);
+    }
+    else if(num<=600){
+        
+        int bill=(num*0.80)+200;
+        printf("Rs.%d",bill);
+    }
+    else if(num>600){
+        
+        int bill=(num*1.25)+425;
+        printf("Rs.%d",bill);
+    }
+    return 0;
+}
