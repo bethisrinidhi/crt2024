@@ -1,0 +1,26 @@
+SWITCH CONDITION:
+
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+    switch(a){
+        case 1:
+        printf("java");
+        break;
+        case 2:
+        printf("python");
+        break;
+        case 3:
+        printf("C");
+        break;
+        case 4:
+        printf("C++");
+        break;
+        default:
+        printf("Invalid");
+    }
+
+    return 0;
+}
