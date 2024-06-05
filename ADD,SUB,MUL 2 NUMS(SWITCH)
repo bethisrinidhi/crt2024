@@ -1,0 +1,29 @@
+ADD,SUB,MUL,DIV 2 NUMS USING SWITCH :
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int n;
+    scanf("%d",&n);
+    switch(n){
+        case 1:
+        printf("a+b= %d",a+b);
+        break;
+        case 2:
+        printf("a-b= %d",a-b);
+        break;
+        case 3:
+        printf("a*b= %d",a*b);
+        break;
+        case 4:
+        printf("a/b= %d",a/b);
+        break;
+        default:
+        printf("Invalid n");
+    }
+
+    return 0;
+}
