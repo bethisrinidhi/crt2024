@@ -1,0 +1,19 @@
+BOATING(HCKRANK):
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int bw,a,c;
+    scanf("%d%d%d",&bw,&a,&c);
+    int n=(a*75)+(c*30);
+    if(n>bw){
+        printf("Boat will drown");
+    }
+    else{
+        printf("Boat is stable");
+    } 
+    return 0;
+}
